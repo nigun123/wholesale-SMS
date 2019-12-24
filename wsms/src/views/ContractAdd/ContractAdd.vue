@@ -156,7 +156,6 @@ export default {
                 //使用路由router跳转至合同管理
                 this.$router.push('/contractmanage');
             },1000)
-            // console.log('successf===='+response);  
         }
                     
       },  

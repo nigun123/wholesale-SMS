@@ -18,21 +18,11 @@
         >
         <el-submenu index="1">
             <template slot="title">
-                <i class="el-icon-location"></i>
-                <span>系统信息</span>
-            </template>
-            <el-menu-item-group>                        
-                <el-menu-item index="/">系统详情</el-menu-item>
-                
-            </el-menu-item-group>
-        </el-submenu>
-        <el-submenu index="2">
-            <template slot="title">
                 <i class="el-icon-menu"></i>
                 <span>合同管理</span>
             </template>
             <el-menu-item-group>                        
-                <el-menu-item index="/contractmanage">合同管理</el-menu-item>
+                <el-menu-item index="/">合同管理</el-menu-item>
                 <el-menu-item index="/contractadd">添加合同</el-menu-item>      
                 <el-menu-item index="/contractborrow">借还记录</el-menu-item>      
             </el-menu-item-group>

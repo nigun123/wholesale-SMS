@@ -6,8 +6,7 @@
 import axios from 'axios';
 import qs from  'qs';
 import { promises, realpath } from 'fs';
-import { resolve } from 'path';
-
+import { resolve } from 'path'
 //设置默认根目录==服务端地址
 axios.defaults.baseURL = 'http://127.0.0.1:666';
 

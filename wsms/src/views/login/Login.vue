@@ -105,7 +105,7 @@ export default {
                       });
                       setTimeout(()=>{
                           //使用路由router跳转至后端主页面
-                          this.$router.push('/');
+                          this.$router.push('/contractmanage"');
                       },1000)
                     }else{
                       this.$message({
